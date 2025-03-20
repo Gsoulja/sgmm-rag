@@ -1,0 +1,11 @@
+# requirements.txt
+fastapi==0.110.1
+uvicorn==0.27.1
+pydantic==2.6.1
+transformers==4.38.2
+faiss-cpu==1.7.4  # Use faiss-gpu for GPU support
+pymupdf==1.23.9   # For PDF processing
+python-multipart==0.0.7  # For handling file uploads
+torch==2.2.0
+numpy==1.26.4
+requests==2.31.0
